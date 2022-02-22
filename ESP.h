@@ -27,7 +27,7 @@ void ESPLoop() {
 	{
 		rendering = false;
 		showmenu = false;
-		Sleep(1000);
+		Sleep(999);
 		MessageBoxA(NULL, "Bye", "Cheat", MB_OK);
 		exit(0);
 	}
